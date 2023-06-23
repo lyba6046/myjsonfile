@@ -40,7 +40,7 @@ from .modeling import BertLayerNorm as LayerNorm
 logger = logging.getLogger(__name__)
 
 PRETRAINED_MODEL_ARCHIVE_MAP = {"gpt2": "https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin"}
-PRETRAINED_CONFIG_ARCHIVE_MAP = {"gpt2": "D:\project\pytorch_pretrained_bert\gpt2-config.json"}
+PRETRAINED_CONFIG_ARCHIVE_MAP = {"https://github.com/lyba6046/myjsonfile/tree/master/gpt2-config.json"}
 
 CONFIG_NAME = "config.json"
 WEIGHTS_NAME = "pytorch_model.bin"

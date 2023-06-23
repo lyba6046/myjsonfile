@@ -48,7 +48,7 @@ PRETRAINED_MODEL_ARCHIVE_MAP = {
     'transfo-xl-wt103': "https://s3.amazonaws.com/models.huggingface.co/bert/transfo-xl-wt103-pytorch_model.bin",
 }
 PRETRAINED_CONFIG_ARCHIVE_MAP = {
-    'transfo-xl-wt103': "D:\project\pytorch_pretrained_bert\transfo-xl-wt103-config.json",
+    'transfo-xl-wt103': "https://github.com/lyba6046/myjsonfile/tree/master/transfo-xl-wt103-config.json",
 }
 CONFIG_NAME = 'config.json'
 WEIGHTS_NAME = 'pytorch_model.bin'
